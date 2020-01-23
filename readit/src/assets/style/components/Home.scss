@@ -1,0 +1,197 @@
+.postTitleBox {
+    width: 100%;
+    margin: 2% 0 2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.postTitleBoxIcon {
+    margin: auto 0 auto 0;
+    cursor: pointer;
+}
+
+.posts {
+    width: 100%;
+    height: 100%;
+    margin: 1.5% 0 1.5% 0
+}
+
+.post {
+    height: 15%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 1%;
+
+    border-left: 0.5px solid #D3D3D3;
+    border-right: 0.5px solid #D3D3D3;
+    border-top: 0.5px solid #D3D3D3;
+
+    -moz-box-shadow: 0px 1px 5px 0px #676767;
+    -webkit-box-shadow: 0px 1px 5px 0px #676767;
+    box-shadow: 0px 1px 5px 0px #676767;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    cursor: pointer;
+
+    transition: transform .2s;
+    /* Animation */
+}
+
+.post__score {
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-right: 0.5px solid #D3D3D3;
+
+}
+
+.score_vote {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
+}
+
+.score_num {
+    padding: 2% 0 2% 0;
+    text-align: center;
+}
+
+.post_right {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post_right__content {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right_content__frame {
+    width: 95%;
+    height: 40%;
+    margin: auto;
+}
+
+.content_text {
+    white-space: nowrap;
+    /*keep text on one line */
+    overflow: hidden;
+    /*prevent text from being shown outside the border */
+    text-overflow: ellipsis;
+    /*cut off text with an ellipsis*/
+}
+
+.content_under {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.under_text {
+    max-width: 25%;
+    white-space: nowrap;
+    /*keep text on one line */
+
+    overflow: hidden;
+    /*prevent text from being shown outside the border */
+    text-overflow: ellipsis;
+    /*cut off text with an ellipsis*/
+}
+
+.under_categoryItem {
+    background-color: blue;
+    padding: 1.5% 1% 1.5% 1%;
+    color: white;
+    width: 15%;
+    height: 20%;
+    text-align: center;
+    font-size: 8px;
+    border-radius: 10px;
+    line-height: 100%;
+    margin: 0 2% 0 2%;
+
+}
+
+.under_nsfwItem {
+    margin: 0 2% 0 2%;
+    border: 2px solid red;
+    width: 10%;
+    height: 80%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.under_nsfwItem_text {
+    color: red;
+
+    padding: auto;
+}
+
+.post_right_extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 40%;
+    height: 80%;
+    margin: auto;
+
+}
+
+.extra_image {
+    width: 80%;
+    height: 100%;
+}
+
+.feed_extra__image {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.feed_extra__image_nsfw {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+    text-decoration: none;
+
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
+.feed_extra__options {
+    height: 30%;
+    margin: auto;
+    color: #A9A9A9;
+}

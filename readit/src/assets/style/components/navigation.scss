@@ -1,0 +1,83 @@
+.sideBar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sideBar_Logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5%;
+    padding: 10% 5% 10% 5%;
+}
+
+.closeBtn {
+    display: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: auto 5% auto auto;
+    cursor: pointer;
+}
+
+.sideBar_content__listings {
+    margin-bottom: 20%;
+}
+
+.sideBar_Title {
+    padding: 1% 5% 0% 5%;
+    color: #767676;
+
+}
+
+.sideBar_Title__Underline {
+    height: 1px;
+    width: 95%;
+    background-color: black;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.sideBar_Content {
+    color: #545454;
+    display: block;
+    transition: 0.3s;
+    padding: 0 5% 5% 5%;
+    cursor: pointer;
+}
+
+.sideBar_Content:hover {
+    background-color: #F1F1F1;
+}
+
+.sideBar_Content:focus {
+    background-color: #F1F1F1;
+}
+
+.sideBar_Content:active {
+    background-color: #F1F1F1;
+}
+
+.sideBar a {
+    text-decoration: none;
+    color: #545454;
+
+}
+
+.sideBar a:visited {
+    text-decoration: none;
+    color: #545454;
+
+}
+
+.widthStyle {
+    width: 250px;
+}
