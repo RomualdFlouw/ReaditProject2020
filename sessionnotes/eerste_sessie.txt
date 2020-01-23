@@ -1,0 +1,84 @@
+voorstelling ccu:
+federale,lokale ccu
+voorsteller --> bijzondere operaties en middelen (observaties en afluisteren telefoon)
+computer crime unit
+federale --> brussel
+regionale --> arondisement een beetje overal (kortrijk)
+specialisaties:
+	-team osint
+	-team telefonie (chip, enkel in brussel)
+	-team onderzoek gegevensdragers (sticks, huiszoekingen in firmas)
+	-team hacking (alles wat internet is tcp/ip)
+in de schoot van iedere eenheid in west-vlaanderen
+voordeel:
+	-dichter bij opnames van klanten
+	-meer sturing bij onderzoeken
+toekomst:
+	-opleidingen infiltratie en ondercover
+	-wat met dark web, blockchain,enz
+kopieren van harde schijf:
+	-via een linux systeem (caine forensics)
+	-dd, dcfldd, ddrescue en aanverwanten (oor data te kopiëren, volle schijf klonen of wegschrijven naar één bestand)
+	-dd if=/dev/sr0 of=isoimage.iso bs=2048
+ewf formaat
+	-formaat gecreeerd door encase. momenteel als standaard beschouwd
+	-een kopie kan gecompresseerd worden
+	-gemakkelijk hashen
+caine forensics
+	Sleuthkit (commandline tool om gewiste bestanden terug te halen)
+	carving -> photorec (zoeken op de header van een file)
+dataretentie regelgeving
+	-logfiles/identificatie bij providers
+	-europese richtlijnen
+	-in belgië maximum 6 maanden bijhouden
+	-duitsland bv niet bijhouden
+	-opvragen enkel via vordering van een procureur of onderzoeksrechter
+	-enig wetterlijk en juist resultaat
+vorderen systeembeheer
+	-hebben passwoorden nodig
+internationaal
+	-alle opvragingen dienen te gebeuren via het ministerie van buitenlandse zaken
+	-uitzonderingen momenteel:
+		-facebook
+		-tweedehands
+		-outlook
+	-kan enkel vordering PK of onderzoeksrechter
+	-wat bij mappings naar server extern
+		-wat is vaag
+		-indien je kan weten dat het om een server in het buitenland gaat en indien je kunt zonder passwoord en of zonder gebruikersnaam int te voeren dan mogen gegevens gekopieerd worden
+		-in het laatste geval dien direct het land van plaats van de server verwittigd worden
+telefonie
+	-alle procedures staan beschreven in art 39 wetboek van strafvordering
+		-alleen een OGP kan in beslag nemen
+		-het toestel moet direct in een toestand gebracht worden zodanig dat er geen extern contact mogelijk is
+		-contact online diensten enkel terug met specifieke vordering onderzoeksrechter
+messenger en dergelijke
+	-kan zoals hiervoor vermeld via een vordering
+	-wij kunnen het passwoord niet veranderen en kunnen enkel binnengaan op het verdacht acc in het bijzijn van verdachte en met zijn toestemming
+	-op die manier kan het volledig profiel gedownload worden
+afluisteren
+	-wetboek van strafvordering 
+	-vordering van onderzoeksrechter
+	-alle relevante gesprekken moet uitgetypt worden, om de vijf dagen
+	-op vraag van een van de advocaten moet alles uitgetypt worden
+moeilijkheden
+	-volte mengen met analoge gesprekken
+	-via widi connecteren
+huidige fenomenen
+	-ransomware
+		-wij nemen volledige kopie van de harde schijf
+		-gaan op zoek naar de betalingsmodaliteiten om netwerken te kunnen detecteren
+		-nomoreransom.org
+oplichtingen
+	-paypall, dhl en andere
+	-aankoop via challengemcode
+	-misbruik wetgeving banken
+money mule
+	-oplichting gebeurt via internet
+	-geld wordt gestort op rekening derde
+	-derde stort het geld door via WU of moneygram
+uitdagingen
+	-patrouille internet
+	-monitor gnutella
+niet uit eigen initiatief
+	-piraterij
